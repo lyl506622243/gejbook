@@ -1,0 +1,169 @@
+/* Credit: #/ */
+body {
+margin:0;
+padding:0;
+line-height: 1.5em;
+font-family: "华文宋体";
+font-size: 11px;
+background: #D9EEFF;
+}
+a:link { color: #0066CC; text-decoration: none} 
+a:visited { color: #0066CC; text-decoration: none} 
+a:active { color:#008000; text-decoration: underline} 
+a:hover { color: #008000; text-decoration: underline}
+
+/*导航条字体*/
+#container {
+width: 800px;
+margin: auto;
+background: #FFFFFF;
+}
+
+/*横幅*/
+#header {
+clear: left;
+height: 160px;
+background: url(images/hai1.jpg) no-repeat;
+}
+#content {
+width: 800px;
+}
+#left_column {
+background:#BDDEFF;
+float: left;
+width: 200px;
+min-height: 400px;
+}
+#right_column {
+float: left;
+width: 600px;
+min-height: 400px;
+}
+#footer {
+clear: left;
+background: #0066CC;
+padding: 15px;
+color:#FFFFFF;
+letter-spacing: 3px;
+font-size:15px
+}
+#footer a {
+color:#0683FF;#FFFFFF;
+}
+
+/*标题样式*/
+#site_title {
+padding-top: 60px;
+padding-left: 60px;
+font-family: "方正清刻本悦宋简体", "方正粗黑宋简体", "黑体", "微软雅黑", "宋体", "幼圆";
+font-size: 50px;
+color: #006;
+}
+#site_slogan {
+padding-top: 30px;
+padding-left: 60px;
+font-family: "方正清刻本悦宋简体";
+font-weight: bold;
+font-size: 24px;
+color: #006;
+}
+.line {
+clear: left;
+height: 3px;
+background: #0683FF;#0066CC;
+}
+.pic {
+float: right;
+margin-left: 10px; 
+border: 1px solid #000000;
+}
+.section_box {
+margin: 10px;
+padding: 10px;
+border: 2px dashed #0066AA;
+background: #D9EEFF;#AAD5FF;
+color: #006699;
+font-size:16px;
+font-family:"华文宋体";
+}
+
+/*box里面的文字*/
+.section_box a {
+color:#9B9BFF;
+}
+.section_box a:hover {
+color: #99FFFF;
+}
+.section_box2 {
+margin-top: 10px;
+padding: 12px;
+border: 0px dashed #0066AA;
+background: #BDDEFF;#D9EEFF;
+color: #006699;
+}
+.section_box3 {
+margin: 10px;
+padding: 10px;
+height:150px;
+border: 1px dashed #0066AA;
+background: #D9EEFF;
+color: #006699;
+font-family:"华文宋体";
+font-size:14px;
+border-style:groove;
+border-width: 10px;
+}
+.text_area {
+margin: 10px;
+}
+.title {
+padding-bottom: 15px;
+font-size: 18px;
+font-family:"华文宋体";
+font-weight: bold;
+color:#0066AA;
+font:#00B9B9;
+}
+.subtitle {
+padding-bottom: 10px;
+font-family:"华文宋体";
+font-size: 15px;
+font-weight: bold;
+}
+
+/* Menu Credits: Dynamic Drive CSS Library */
+/* URL: http://www.dynamicdrive.com/style/ */
+
+/*横向导航条CSS样式*/
+.solidblockmenu{
+margin: 0;
+padding: 0;
+float: left;
+font: bold 13px Verdana;
+width: 100%;
+border: 1px solid #FFFFFF;
+border-width: 1px 0;
+background: black url(images/blockdefault.gif) center center repeat-x;
+}
+.solidblockmenu li{
+display: inline;
+}
+.solidblockmenu li a{
+float: left;
+color: white;
+padding: 18px 16px;
+text-decoration: none;
+border-right: 1px solid white;
+}
+.solidblockmenu li a:visited{
+color: white;
+}
+.solidblockmenu li a:hover, .solidblockmenu li .current{
+color: white;
+background: transparent url(images/blockactive.gif) center center repeat-x;
+}
+p.iepara{
+padding-top: 1em;
+}.text_area div {
+	font-size: 16px;
+}
