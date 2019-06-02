@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>“高尔基”之家</title>
+<meta name="keywords" content="free CSS templates, website templates, CSS, HTML, templatemo 002" />
+<meta name="description" content="templatemo 002 - free CSS website template" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.zhendimage{ position:relative; }
+</style>
+<script src="myScript.js"></script>
+
+<script type="application/javascript" >
+var rector =3;
+var stopit = 0;
+var a=1;
+var zhend;
+function init(which)
+{
+    stopit =0;
+    zhend = which;
+    zhend.style.left =0;
+    zhend.style.top =0;
+}
+function rattleimage()
+{
+    if(stopit==1)
+    {
+        return;
+    }    
+    if(a==1)
+    {
+        zhend.style.top = parseInt(zhend.style.top)+rector+"px";
+    }
+    else if(a==2)
+    {
+        zhend.style.left = parseInt(zhend.style.left)+rector+"px";
+    }
+    else if(a==3)
+    {
+        zhend.style.top = parseInt(zhend.style.top)-rector+"px";
+    }
+    else 
+    {
+        zhend.style.left = parseInt(zhend.style.left)-rector+"px";
+    }
+    if(a<4)a++;    else a =1;
+    setTimeout("rattleimage()",50);
+}
+
+function stoprattle(which)
+{
+    stopit = 1;
+    which.style.left =0;    
+    which.style.top =0;        
+}
+</script>
+</head>
+
+<body>
+
+<div id="container">
+    <div class="line"></div>   
+    <div>
+        <ul class="solidblockmenu">
+          <li><a href="../index.html">分工情况</a></li>
+          <li><a href="../文学艺术模块 王创镕/index.html">文学艺术</a></li>
+          <li><a href="../人文社科板块 李豪/浮生六记.html">人文社科</a></li>
+          <li><a href="../推理小说板块 李映龙/index.html">推理小说</a></li>
+          <li><a href="KXJS.html" class="current">科学技术</a></li>
+          <li><a href="../武侠小说板块 陈浩/index5.html">武侠小说</a></li>
+        </ul>
+	</div>
+  <div class="line"></div> 
+  <div id="header">
+  <div id="site_title">书籍的海洋</div>
+  <div id="site_slogan"> ----推荐图书书单</div>
+  </div>
+  
+  <div class="line"></div>    
+	
+    <div id="content">
+
+    <div id="left_column">
+    	<div class="text_area" align="justify">
+        <div class="subtitle">关于此网站</div>
+           本网站致力于为每一个爱书人士推出能激励个人成长的好书！只有当一本书提供了精神成长、工作技能的提升，才会被我们所推荐！<br />
+      </div>
+   	  <div class="section_box">
+        <div class="subtitle">书单类别导航</div>
+          <p><a href="../文学艺术模块 王创镕/index.html"><strong>·文学艺术</strong></a><br />
+            <a href="../人文社科板块 李豪/浮生六记.html"><strong>·人文社科</strong></a><br />
+            <a href="../推理小说板块 李映龙/index.html"><strong>·推理小说</strong></a><br />
+            <a href="KXJS.html"><strong>·科学技术</strong></a><br />
+          <a href="../武侠小说板块 陈浩/index5.html"><strong>·武侠小说</strong></a></p>
+
+      </span></div>
+      
+      <div class="section_box3" align="justify">
+        <div class="subtitle">读书的益处:</div>
+        1. 读书可以增加谈吐深度<br />
+        2.读书可以保持大脑的活跃<br />
+        3.读书可以使人抵抗孤独<br />
+        4.读书可以释放压力<br />
+        5.读书使人明智<br />
+   	  </div>
+      <div class="text_area" align="justify">
+        <div class="subtitle">小组信息</div>
+            学院：经贸学院<br />
+          班级：17电子商务B2班<br />
+          小组：“高尔基”小组<br />
+      </div>
+      </div>
+      
+      <div id="right_column">
+   	 		<div class="text_area" align="justify">
+      
+<div class="title">科学技术类图书推荐</div>
+<div  class="section_box"align="justify">
+  <p align="center"><a href="SJJS.html"><img src="images/SJJS.jpg"  width="200" height="277" img class="zhendimage" onmousemove="init(this);rattleimage();"
+onmouseout="stoprattle(this);" /> </p>
+  <p align="center"> 《时间简史》</p>
+  <p align="center"><a href="KXBK.html"><img src="images/KXBK.jpg" width="200" height="277" img class="zhendimage" onmousemove="init(this);rattleimage();"
+onmouseout="stoprattle(this);" /></p>
+  <p align="center"> 《科学百科》</p>
+</div>
+
+ 
+</div>
+   		</div>   
+	</div>
+    </div>
+ 
+	<div id="footer" align="center">
+    Copyright  © 2019  "高尔基”小组  |  Designed  by </a>
+    </div>
+</div>
+
+</body>
+</html>
